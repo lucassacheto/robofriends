@@ -8,8 +8,6 @@ import App from './App';
 import "tachyons";
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<Hello userPosition={"Front End Developer"} />, document.getElementById('root'));
-
 ReactDOM.render(<App />,document.getElementById('card'));
 
 // If you want your app to work offline and load faster, you can change
